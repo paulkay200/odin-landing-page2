@@ -13,3 +13,33 @@ html {
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 12px; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 26px;
+}
+
