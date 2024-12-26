@@ -11,6 +11,7 @@ html {
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -18,6 +19,7 @@ body {
     flex-direction: column;
     font-family: roboto, sans-serif;
     height: 100vh;
+   
 }
 
 /* header */
@@ -25,10 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 12px; 
-    width: 80%;
-    margin: 0 auto;
-    
+    padding: 26px 13%;
 }
 
 .logo {
@@ -36,6 +35,8 @@ body {
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
+    text-align: center;  
+   
 }
 
 .header-links {
@@ -45,22 +46,27 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     gap: 26px;
+    text-align: center;
+ 
 }
 
 /* awesome website */
 .section-1 {
     display: flex; 
     background-color: #1F2937; 
+    padding: 16px 13%;
 }
 
 .para-1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+   
 }
 
 .para-2 {
     color: #F9FAF8;
+    max-width: 82%;
 }
 
 .button-1 {
@@ -74,7 +80,7 @@ body {
 .placeholder {
     color: #F9FAF8;
     padding: 24px;
-    background-color: #E5E7EB;
+    background-color: grey;
 }
 
 
