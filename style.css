@@ -6,6 +6,7 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+    
 }
 
 * {
@@ -17,9 +18,8 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    font-family: roboto, sans-serif;
+    font-family: "roboto", sans-serif;
     height: 100vh;
-   
 }
 
 /* header */
@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 26px 13%;
+    padding: 1.625rem 15%;
 }
 
 .logo {
@@ -36,7 +36,6 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     text-align: center;  
-   
 }
 
 .header-links {
@@ -47,26 +46,32 @@ body {
     color: #E5E7EB;
     gap: 26px;
     text-align: center;
- 
+    
 }
+
 
 /* awesome website */
 .section-1 {
     display: flex; 
+    align-items: center;
     background-color: #1F2937; 
-    padding: 16px 13%;
-}
+    padding: 7.625rem 15%;
+}   
+
 
 .para-1 {
-    font-size: 48px;
+    max-width: 78%;
+    font-size: 3rem;
     font-weight: 900;
     color: #F9FAF8;
-   
 }
 
 .para-2 {
     color: #F9FAF8;
+    font-size: 1.125rem;
     max-width: 82%;
+    margin-bottom: 0.5rem;
+    
 }
 
 .button-1 {
@@ -74,13 +79,18 @@ body {
     color: #F9FAF8;
     padding: 8px;
     border-radius: 10px;
-    width: 100px;
+    width: 125px;
+    font-size: 16px;
+    border: none;
 }
 
 .placeholder {
-    color: #F9FAF8;
-    padding: 24px;
-    background-color: grey;
+    color: #E5E7EB; 
+    text-align: center;
+    background-color: grey; 
+    padding: 7rem;
+    flex-shrink: 0;
+    width: 48%;
 }
 
 
